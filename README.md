@@ -48,7 +48,8 @@ npm i -D lottery-util
 ```js
 import lotteryUtil from "lottery-util"
 
-lotteryUtil() // true
+lotteryUtil.generateNumber() // return a number between 1 and 50
+lotteryUtil.generateStar() // return a star between 1 and 12
 ```
 
 ## License
